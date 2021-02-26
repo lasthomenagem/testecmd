@@ -1,0 +1,278 @@
+#header{
+    background-color: #ec6707;
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 2rem;
+  }
+
+  #jumbotron{
+      width: 80%;
+      height: 80%;
+  }
+
+  .mb-1{
+      margin-bottom: 1rem;
+  }
+
+  .mb-3{
+      margin-bottom: 4rem;
+  }
+
+  .mb-5{
+      margin-bottom: 6rem;
+  }
+
+  .mt-2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+.mt-4{
+    margin-top: 40px;
+}
+
+.ml-3{
+    margin-left: 3rem;
+}
+
+.mt-3{
+    margin-top: 2rem;
+}
+
+.mt-5{
+    margin-top: 4rem;
+}
+
+  .my-3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .my-5{
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+  }
+
+  .body{
+      background-color: #e6e6e6;
+  }
+
+  .text-light{
+      color: white;
+  }
+
+  .text-center{
+      text-align: center;
+  }
+
+  .my-auto{
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+
+  .w-100{
+    width: 100%;
+  }
+
+  .w-75{
+      width: 75%;
+  }
+
+  .w-50{
+      width: 50%;
+  }
+
+  .w-25{
+    width: 25%;
+
+  }
+
+ 
+
+  .justify-content-center{
+      justify-content: center;
+  }
+
+  .navbar-brand {
+    width:180px;
+    font-size: 24px;
+  }
+  .navbar-brand img {
+    height: 50px;
+    /* put value of image height as your need */
+    float: left;
+    margin-right: 7px;
+  }
+
+  #imgbrand{
+      width: 20vh;
+      margin-top: 7px;
+  }
+
+  .zoom {
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .price{
+    border-color: darkmagenta;
+  }
+  .qty{
+    border-color: green;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+    border-width: 4vh
+    border-color: black;
+    
+  }
+
+  .zoom1 {
+    transition: transform .2s;
+    background-color:transparent;
+  }
+
+  .zoom1:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    border-width: 4vh;
+    background-color:transparent;
+  }
+
+
+  .a{
+      color: darkmagenta;
+      
+  }
+
+  #product{
+    height: 200%;
+  }
+
+  #carrinhopop{
+    width:60vh;
+  }
+
+  button.mercadopago-button {
+    background-color: #00b1ea);
+    color: #white;
+    border: 3px solid #107da1;
+    border-radius: 20px;
+    float: right;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-emphasis-position: center;
+    text-transform: uppercase;
+  }
+
+  .cct{
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .cpp{
+    color: green;
+    font-size: 1.5rem;
+  }
+
+  #cartslider{
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  .xablau{
+    visibility: hidden;
+  }
+  @media(min-width: 768px) {
+
+    .hol{
+      visibility: hidden;
+    }
+    .xablau{
+      visibility: hidden;
+    }
+
+  }
+
+  @media(max-width: 1998px) {
+    #seg1{
+      width: 15vh;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  }
+  @media(max-width: 768px) {
+
+  .xablau{
+    visibility: visible;
+  }
+
+  #carrinhopop{
+    width:100%;
+    height: 100%;
+    z-index: -1000;
+  }
+
+	#depoimentoTexto{
+		font-size: 4vw;
+	}
+
+    #jumbotron{
+        width: 90%;
+        height: 9vh;
+    }
+    
+    .carousel-inner > .item > img {
+        width: 400vh;
+        height: 15vh;
+      }
+
+      #seg1{
+          width: 15vh;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          text-align: center;
+      }
+
+      .navbar-brand{
+          width: 100%;
+
+      }
+
+      #imgbrand{
+          width: 70%;
+      }
+
+      .navbar-brand {
+        width:180px;
+        font-size: 24px;
+      }
+
+      .hos{
+        visibility: hidden;
+      }
+
+      .text-tittle{
+        text-transform:uppercase;
+         font-weight: bold; 
+         font-size: 1.6rem; 
+         color: #ec6707; 
+         height:10vh;
+         text-align: center;
+      }
+
+      
+   
+}
+
+
